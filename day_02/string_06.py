@@ -50,6 +50,22 @@ print(msg_re)
 
 value_s = '$1,150.55'
 
+step_1 = value_s.lstrip('$')
+print(step_1)
+
+step_2 = step_1.replace(',', '')
+print(step_2)
+
+# 위의 과정을 한줄로 작성하는 예제
+value = value_s.lstrip('$').replace(',','')
+print(value)
+
+
+
+
+
+
+
 
 
 
