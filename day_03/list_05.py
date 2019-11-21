@@ -28,6 +28,16 @@ print(list_1)
 list_1.remove(5)
 print(list_1)
 
+# pop 메소드는 해당 리스트의 마지막 요소를 삭제합니다.
+# (삭제한 데이터를 반환)
+# del 리스트변수[-1] 과 유사하게 동작합니다.
+list_1.pop()
+print(list_1)
+
+
+
+
+
 
 
 
