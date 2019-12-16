@@ -1,0 +1,49 @@
+# -*- coding: utf-8 -*-
+
+from matplotlib import pyplot as plt
+import matplotlib.font_manager as fm
+
+font_path='c:/windows/Fonts/NanumMyeongjo.ttf'
+font_prop = fm.FontProperties(fname=font_path, size=17)
+
+x = list(range(1,6))
+y = list(range(10,51,10))
+
+# 그래프의 제목 설정
+# title 함수를 사용
+plt.title('matplotlib 예제', fontProperties=font_prop)
+
+# 그래프의 라벨 설정
+# xlabel, ylabel 함수를 사용
+plt.xlabel('x label', fontProperties=font_prop)
+plt.ylabel('y label', fontProperties=font_prop)
+
+plt.plot(x, y, 'k^')
+
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
